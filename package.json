@@ -2,8 +2,28 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.3.1",
     "and": "^0.0.3",
+    "nodemon": "^3.1.14",
     "postcss": "^8.5.15",
     "tailwindcss": "^4.3.1",
     "v": "^0.3.0"
-  }
+  },
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rhythm-art/Internship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Rhythm-art/Internship/issues"
+  },
+  "homepage": "https://github.com/Rhythm-art/Internship#readme"
 }
