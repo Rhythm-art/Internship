@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1  id = "h1id" class="first" style="background-color: red; color: blueviolet;">fbuhrbvusyb</h1>
+    <h1 class="second"> this is my second heading </h1>
+    <img id = "imgid" src="Image.jpg" alt="my profile picutre">
+    <p> THIS IS MY PARAGRAPH </p>
+    <button onclick="button()"> click me </button>"
+   <script>
+    // gets elements by class name 
+    /*let heading = document.getElementsByClassName("first");
+    heading[0].innerHTML = "this is my heading of the dom"
+    heading[0].style.backgroundColor = "yellow";
+
+    
+
+    // gets elements by tag name
+    heading = document.getElementsByTagName("h1");
+    heading[0].innerHTML = "this is my heading of the dom"
+ 
+    // access the elements by query selector
+    heading = document.querySelector("h1id");
+    heading.innerHTML = "hello"
+    heading.style.backgroundColor = "green";
+
+    // access the elements by query selector all
+    let headings = document.querySelectorAll("h1");
+    headings[1].innerHTML = "this is my second heading of the dom"
+    headings[1].style.backgroundColor = "blue";
+    
+
+    let paragraph = document.querySelectorAll("p");
+    for(let i = 0; i < paragraph.length; i++){
+        paragraph[i].style.backgroundColor = "yellow";
+        paragraph[i].innerHTML = "this is my paragraph of the dom";
+    }
+    
+
+    let heading = document.getElementById("imgid");
+    heading.src = "owl.jpg";
+
+
+    function button(){
+        let heading = document.getElementById("h1id");
+        heading.innerHTML = "this is my heading of the dom"
+        heading.style.backgroundColor = "blue";
+    }
+        */
+
+    // event and event listener
+    // event is an action that occurs in the browser or web page like click, mouseover, keypress, load, unload etc.
+    // the common event are 
+    // event listener is a function that is called when an event occurs on an element. it is used to handle events and perform actions when the event occurs.
+    // click - occurs when the user clicks on an element
+    // mouseover - occurs when the user moves the mouse over an element
+    // onchange - occurs when the value of an element changes
+    // onsubmit - occurs when the user submits a form
+    // onload - occurs when the page is loaded
+
+    //event listener
+    let button = document.querySelector("button"); 
+    button.addEventListener("click",function(){
+        alert("this is my first event listener");
+    })
+
+
+
+   </script>
+
+
+    
+</body>
+</html>
+
+
+
+// dom (document object model) is a programming interface that represents the html document as a tree structure 
+// javascript uses dom to change the text, change colors, add html elements, remove elements read inputs values and many more things.
+
+// common methods to access html elements are 
+// getElementById()- selects the html element by id
+// getElementsByClassName() - select the html elements by class name 
+// getElementsByTagName() - selects the html elements by tag name
+// querySelector()- selects the first matching element
+// querySelectorAll() - selects all matching elements
+
+
+
